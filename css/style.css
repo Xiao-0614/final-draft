@@ -401,10 +401,29 @@ footer p{
   #background h1 {
     animation: none;
   }
+
+  #image-animation {
+    animation: none;
+  }
 }
 
 legend {
   font-size: 150%;
   font-style: italic;
   text-align: center;
+}
+
+#image-animation {
+  animation: grow_img 5s 1;
+}
+
+@keyframes grow_img {
+  from {
+    width: 25px;
+    opacity: 0;
+  }
+  to {
+    width: 300px;
+    opacity: 1;
+  }
 }
