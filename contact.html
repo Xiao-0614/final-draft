@@ -39,11 +39,11 @@
 		<div class="nav">
 			<nav aria-label="linktopages">
 				<ul class="nav-links">
-                    <li><a href = "index.html" >About R&B</a></li>
-                    <li><a href = "rnbartists.html">Some excellent R&B artists</a></li>
-                    <li><a href = "rnbworks.html">Recommendations for R&B works</a></li>
-                    <li><a href = "rnbhistory.html">History of R&B</a></li>
-                    <li class="active"><a href = "contact.html">Contact Page</a></li>
+                    <li></i><a href = "index.html" >About</a></li>
+                    <li></i><a href = "rnbartists.html">Artists</a></li>
+                    <li></i><a href = "rnbworks.html">Works</a></li>
+                    <li></i><a href = "rnbhistory.html">History</a></li>
+                    <li class="active"><a href = "contact.html">Contact</a></li>
                     <!-- <li><a href = "game.html">Play a little game</a></li> -->
 				</ul>
 			</nav>
@@ -53,16 +53,14 @@
             <a class = "skip" href="#main">Skip to Main Content</a>
         </div>  
 
-		<!-- The h1 is a semantic tag that aids accessibility -->
-		<h1 class="google_font">Contact Me!</h1>
 	</header>
 
 	<!-- Every page should have a main tag for accessibility -->
 	<main id="main">
 
-        <!-- <div id = 'contact-header'>
-                <h1>Contact</h1>
-        </div> -->
+        <div class = "intro-text">
+            <h1 class="google_font">Contact Me!</h1>
+        </div>
 
         <div id="center">
             <h1 class="google_font">
@@ -72,21 +70,47 @@
 
         <div class="gallary">
             <div class="item">
-              <header><h3>Michael Jackson</h3></header>
-              <img src = "images/michael-jackson.png" class="img-rounded" alt ="a picture of michael jackson" width="200">
+              <div>
+                <img src = "images/michael-jackson.png" class="img-rounded" alt ="a picture of michael jackson" width="200">
+              </div>
+              <div>
+                <header><h3>Michael Jackson</h3></header>
+              </div>
               <!-- <button>Like it most</button> -->
             </div>
             <div class="item">
-              <header><h3>Whitney Houston</h3></header>
-              <img src = "images/whitney-houston.png" class="img-rounded" alt ="a picture of whitney houston" width="200">
+              <div>
+                <img src = "images/whitney-houston.png" class="img-rounded" alt ="a picture of whitney houston" width="200">
+              </div>
+              <div>
+                <header><h3>Whitney Houston</h3></header>
+              </div>
               <!-- <button>Like it most</button> -->
             </div>
             <div class="item">
-              <header><h3>Babyface</h3></header>
-              <img src = "images/babyface.png" class="img-rounded" alt ="a picture of babyface" width="200">
+              <div>
+                <img src = "images/babyface.png" class="img-rounded" alt ="a picture of babyface" width="200">
+              </div>
+              <div>
+                <header><h3>Babyface</h3></header>
+              </div>
               <!-- <button>Like it most</button> -->
             </div>
-          </div>
+        </div>
+
+        <!-- <form action="https://formspree.io/f/xgedzkye" method = "post">
+            <fieldset>
+                <div class="opinion">
+                    <label for="idea">How much do you like about R&B?</label>
+                    <input type="range" name="idea" id="idea" value="3" min="1" max="5">
+                </div>
+                <div class="Name">
+                    <label for="name">Do you have any other suggestions?</label>
+                    <input type="text" name="name" id="name">
+                </div>
+            </fieldset>
+
+        </form>  -->
 
 
         <form action = 'https://formspree.io/f/mvolboay' method="POST">
@@ -134,27 +158,7 @@
                     </div>
                 </fieldset>
             </form>
-
-            <form action="https://formspree.io/f/xgedzkye" method = "post">
-                <h1>Show your opinion about R&B!</h1>
-                <fieldset>
-                    <div class="opinion">
-                        <label for="idea">How much do you like about R&B?</label>
-                        <input type="range" name="idea" id="idea" value="3" min="1" max="5">
-                    </div>
-                    <div class="Name">
-                        <label for="name">Do you have any other suggestions?</label>
-                        <input type="text" name="name" id="name">
-                    </div>
-                    <div class="submission">
-                        <div>
-                            <button type="submit" aria-label= "Submit button">Submit</button>
-                        </div>
-                    </div>
-                </fieldset>
-
-            </form> 
-            </div>
+        </div>
 		
 	</main>
 
