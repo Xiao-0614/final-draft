@@ -4,6 +4,15 @@ html {
 
 /* mobile view first */
 
+.parallex {
+  background-image: url("../images/background.jpg");
+  min-height: 500px;   
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 /* index.html flip card on mobile view flex column, with wider flip card*/
 .brief-intro{
   display: flex;
@@ -721,6 +730,10 @@ legend {
   }
   .flip-card-inner{
       transform-style: initial;
+  }
+
+  .parallex {
+    background-attachment: initial;
   }
 }
 
